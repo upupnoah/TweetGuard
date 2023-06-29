@@ -67,7 +67,7 @@ func getYellowContentUsers(client *twitter.Client) ([]string, error) {
 
 func containsYellowContent(s string) bool {
 	// custom
-	pattern := `.*[解开透透气|私信主人|女王s|喜欢主人|女S找男m|私信等待那个人].*`
+	pattern := `.*[色情|黄色|裸体|成人|淫秽|床戏|做爱|三级片|AV|艳照|情色|裸聊|黄网|激情|性爱|同性恋|合成图|SM|调教|捆绑|性虐|乳房|性交|阴茎|阴道|胸部|乳头|私处|阴毛|肛门|口交|手淫|性欲|性感|诱惑|私房照|性玩具|兽交|群交|潮吹|自慰|阳具|阴蒂|口活|性奴|虐待|猥亵|强奸|暴露狂|换妻|嫖娼].*`
 	regex := regexp.MustCompile(pattern)
 	return regex.MatchString(s)
 }
