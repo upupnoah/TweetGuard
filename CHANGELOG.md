@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Chore
+- **changelog:** Initialize .chglog and generate CHANGELOG.md
+
 
 <a name="v0.2.1"></a>
 ## [v0.2.1] - 2023-06-29
